@@ -24,7 +24,7 @@ $(document).ready(function(e) {
 		var title = $(this).find('.songSpan').text();
 
 		$('video').attr('src', link);
-		$('#mainVideoWindow .songSpan').text(title);
+		$('#mainVideoWindow p').text(title);
 
 		$('video').trigger('play');
 	});
